@@ -1,4 +1,4 @@
-#<h1 align="center">Hi <img src="https://user-images.githubusercontent.com/44104676/173990923-48b66056-0bff-472a-b5bf-faab4146e950.gif" height="40"> I'm Srishti</h1>
+#<h1><img src="https://user-images.githubusercontent.com/44104676/173990923-48b66056-0bff-472a-b5bf-faab4146e950.gif" height="40"> Hi! I'm Srishti Singh</h1>
 
 <p align="center">
     <img src="https://img.shields.io/badge/Focus-DSA-CB9DF0?style=flat" />
@@ -72,11 +72,15 @@
 <details open>
     <summary>GitHub Stats</summary>
 <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=srishtinsaan&theme=dark&ring=C2FFC7&fire=CB9DF0&currStreakLabel=C2FFC7" alt="srishtinsaan's streak"/>
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=srishtinsaan&show_icons=true&theme=dark&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" alt="itsKayWat's GitHub stats" />
 </p>
 
 <p align="center">
-    <img src="https://github.com/srishtinsaan/srishtinsaan/raw/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Chart" />
+    <img src="https://streak-stats.demolab.com?user=srishtinsaan&theme=dark&ring=C2FFC7&fire=CB9DF0&currStreakLabel=C2FFC7" alt="itsKayWat's streak"/>
+</p>
+
+<p align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=srishtinsaan&theme=dark&column=-1&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" alt="Srishti-Singh's trophies"/>
 </p>
 
 </details>
