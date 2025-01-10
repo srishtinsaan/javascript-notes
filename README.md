@@ -6,7 +6,7 @@
 </p>
 
 <details open>
-<summary>Connect With Me</summary>
+<summary>🌐Connect With Me</summary>
 <p align="center">
     <a href="">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
