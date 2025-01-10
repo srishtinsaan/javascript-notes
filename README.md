@@ -83,37 +83,17 @@
     <img src="https://github-profile-trophy.vercel.app/?username=srishtinsaan&theme=dark&column=-1&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" alt="itsKayWat's trophies"/>
 </p>
 
-<h3 align="center">Contribution Snake</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/srishtinsaan/srishtinsaan/output/github-contribution-grid-snake.svg" alt="snake"/>
-</p>
 </details>
 
-<details open>
-<summary>Support My Coffee Habit ☕️</summary>
-<h2 align="center">💰 Donate to KayWat</h2>
-<p align="center">Your support keeps me fueled and creating! Thanks!</p>
-<p align="center">
-    <a href="https://www.paypal.com/donate/?hosted_button_id=J3ABMPG6MQF3L">
-        <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-000000?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" />
-    </a>
-    <a href="https://www.paypal.com/donate/?hosted_button_id=J3ABMPG6MQF3L">
-        <img src="https://img.shields.io/badge/Buy%20Me%20Two%20Coffees-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
-    </a>
-    <a href="https://www.paypal.com/donate/?hosted_button_id=J3ABMPG6MQF3L">
-        <img src="https://img.shields.io/badge/Buy%20Me%20Three%20Coffees-000000?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" />
-    </a>
-</p>
-</details>
+
+
 
 <div align="center">
 <a href="#">
     <img height="120" alt="Thanks for visiting my profile" width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=C2FFC7&height=120&section=header&text=Thanks%20for%20visiting!&fontSize=30&fontColor=000000&animation=twinkling"/>
 </a>
 <br>
-<p>
-    <img src="https://img.shields.io/badge/Nexus%20AI%20Launch-825%20Days-C2FFC7?style=for-the-badge&logo=clockify&logoColor=black" alt="Launch Countdown"/>
-</p>
+
 <blockquote>
 <p><strong>"Keep coding, stay innovative, and build the future! ✨"</strong></p>
 </blockquote>
