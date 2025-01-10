@@ -53,17 +53,11 @@
 <details open>
 <summary>Top Repositories</summary>
 <p align="center">
-    <a href="https://github.com/itsKayWat/ChatGPT-Recipe_Studio">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=itsKayWat&repo=ChatGPT-Recipe_Studio&theme=dark&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" />
+    <a href="https://github.com/srishtinsaan/NASA-Space-Apps-Challenge-Jaipur-2024">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=srishtinsaan&repo=NASA-Space-Apps-Challenge-Jaipur-2024&theme=dark&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" />
     </a>
-    <a href="https://github.com/itsKayWat/GitSwift">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=itsKayWat&repo=GitSwift&theme=dark&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" />
-    </a>
-    <a href="https://github.com/itsKayWat/Smart_Text_Expander">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=itsKayWat&repo=Smart_Text_Expander&theme=dark&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" />
-    </a>
-    <a href="https://github.com/itsKayWat/Nexus_Ai_Streaming_Platform">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=itsKayWat&repo=Nexus_Ai_Streaming_Platform&theme=dark&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" />
+    <a href="https://github.com/srishtinsaan/Innov8-Hackathon-2024">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=srishtinsaan&repo=Innov8-Hackathon-2024&theme=dark&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" />
     </a>
 </p>
 </details>
