@@ -30,12 +30,11 @@
 <details open>
 <summary>About Me</summary>
 <ul>
-<li>🔭 Founder of NexusStream Project AI</li>
+<li>🔭 Student at JECRC University, Jaipur</li>
 <li>🌱 Currently focused on DSA & Development</li>
 <li>👨‍💻 All projects available at <a href="https://github.com/srishtinsaan">GitHub</a></li>
 <li>📫 Contact me at <strong>srish17816@gmail.com</strong></li>
 <li>🎥 Find me on LinkedIn <a href="https://www.linkedin.com/in/srishti-singh-001842278/">Srishti Singh</a></li>
-<li>⚡ Fun fact: I am not a boy.</li>
 </ul>
 </details>
 
@@ -72,11 +71,11 @@
 <details open>
 <summary>GitHub Stats</summary>
 <p align="center">
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=srishtinsaan&show_icons=true&theme=dark&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" alt="itsKayWat's GitHub stats" />
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=srishtinsaan&show_icons=true&theme=dark&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" alt="Srishti Singh's GitHub stats" />
 </p>
 
 <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=srishtinsaan&theme=dark&ring=C2FFC7&fire=CB9DF0&currStreakLabel=C2FFC7" alt="srishtinsaan's streak"/>
+    <img src="https://github.com/srishtinsaan/srishtinsaan/raw/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Chart"/>
 </p>
 
 <p align="center">
