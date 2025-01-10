@@ -91,7 +91,7 @@
 
 <div align="center">
 <a href="#">
-    <img height="120" alt="Thanks for visiting my profile" width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=C2FFC7&height=120&section=header&text=Thanks%20for%20visiting!&fontSize=30&fontColor=000000&animation=twinkling"/>
+    <img height="120" alt="Thanks for visiting my profile" width="100%" src="https://capsule-render.vercel.app/api?type=waving&customColorList=2,12,18,20,26&height=120&section=header&text=Thanks%20for%20visiting!&fontSize=30&fontColor=000000&animation=twinkling"/>
 </a>
 <br>
 
