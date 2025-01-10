@@ -23,7 +23,7 @@
 <details open>
 <summary>Developer Quote</summary>
 <p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=2000&color=C2FFC7&center=true&vCenter=true&random=false&width=800&lines=The+people+who+are+crazy+enough+to+think+they+can+change+the+world;are+the+ones+who+do.++-+Steve+Jobs" alt="Developer Quote"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=2000&color=C2FFC7&center=true&vCenter=true&random=false&width=800&linesWhen+something+is+important+enough%2C+you+do+it+even+if+the+odds+are+not+in+your+favor.++-+Elon+Musk" alt="Developer Quote"/>
 </p>
 </details>
 
