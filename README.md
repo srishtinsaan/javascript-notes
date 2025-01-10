@@ -80,9 +80,9 @@
 
 <h3 align="center">Contribution Snake</h3>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/srishtinsaan/srishtinsaan/output/github-contribution-grid-snake.svg" alt="snake"/>
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake"/>
 </p>
-</details>
+
 
 </details>
 
