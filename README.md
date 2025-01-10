@@ -70,17 +70,13 @@
 </details>
 
 <details open>
-<summary>GitHub Stats</summary>
+    <summary>GitHub Stats</summary>
 <p align="center">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=srishtinsaan&show_icons=true&theme=dark&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" alt="itsKayWat's GitHub stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=srishtinsaan&theme=dark&ring=C2FFC7&fire=CB9DF0&currStreakLabel=C2FFC7" alt="srishtinsaan's streak"/>
 </p>
 
 <p align="center">
-    <img src="https://streak-stats.demolab.com?user=srishtinsaan&theme=dark&ring=C2FFC7&fire=CB9DF0&currStreakLabel=C2FFC7" alt="itsKayWat's streak"/>
-</p>
-
-<p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=srishtinsaan&theme=dark&column=-1&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" alt="itsKayWat's trophies"/>
+    <img src="https://github.com/srishtinsaan/srishtinsaan/raw/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Chart" />
 </p>
 
 </details>
