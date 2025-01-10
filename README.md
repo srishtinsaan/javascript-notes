@@ -76,7 +76,7 @@
 </p>
 
 <p align="center">
-    <img src="https://streak-stats.demolab.com?user=srishtinsaan&theme=dark&ring=C2FFC7&fire=CB9DF0&currStreakLabel=C2FFC7" alt="itsKayWat's streak"/>
+    <img src="https://streak-stats.demolab.com?user=srishtinsaan&theme=dark&ring=C2FFC7&fire=CB9DF0&currStreakLabel=C2FFC7" alt="srishtinsaan's streak"/>
 </p>
 
 <p align="center">
