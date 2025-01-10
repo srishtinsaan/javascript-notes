@@ -75,12 +75,14 @@
 </p>
 
 <p align="center">
-    <img src="https://github.com/srishtinsaan/srishtinsaan/raw/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Chart"/>
-</p>
-
-<p align="center">
    <img src="https://github-profile-trophy.vercel.app/?username=srishtinsaan&theme=dark&column=-1&title_color=C2FFC7&icon_color=CB9DF0&text_color=ffffff&bg_color=000000" alt="Srishti Singh's trophies"/>
 </p>
+
+<h3 align="center">Contribution Snake</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/srishtinsaan/srishtinsaan/output/github-contribution-grid-snake.svg" alt="snake"/>
+</p>
+</details>
 
 </details>
 
