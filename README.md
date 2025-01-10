@@ -33,27 +33,14 @@
 </details>
 
 <details open>
-<summary>Join Our Discord Community</summary>
-<p align="center">
-    <a href="https://discord.gg/x5ywDpUUuR">
-        <img src="https://img.shields.io/badge/Join%20Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" />
-    </a>
-</p>
-<p align="center">
-    Join us on Discord to collaborate on projects, discuss ideas, and build a community. Everyone is welcome!
-</p>
-</details>
-
-<details open>
 <summary>About Me</summary>
 <ul>
 <li>🔭 Founder of NexusStream Project AI</li>
 <li>🌱 Currently focused on AI Development & Automation</li>
-<li>👨‍💻 All projects available at <a href="https://github.com/itsKayWat">GitHub</a></li>
-<li>🏠 Visit my website at <a href="https://www.kaywat.me">kaywat.me</a></li>
-<li>📫 Contact me at <strong>info@kaywat.me</strong></li>
-<li>🎥 Find me on TikTok <a href="https://www.tiktok.com/@ll_kaywat_ll">@ll_kaywat_ll</a></li>
-<li>⚡ Fun fact: I'm one of the crazy ones who thinks they can change the world</li>
+<li>👨‍💻 All projects available at <a href="https://github.com/srishtinsaan">GitHub</a></li>
+<li>📫 Contact me at <strong>srish17816@gmail.com</strong></li>
+<li>🎥 Find me on LinkedIn <a href="https://www.linkedin.com/in/srishti-singh-001842278/">Srishti Singh</a></li>
+<li>⚡ Fun fact: I am not a boy.</li>
 </ul>
 </details>
 
@@ -61,12 +48,10 @@
 <summary>Skills & Tools</summary>
 <h3 align="center">Languages & Frameworks</h3>
 <p align="center">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="40" height="40"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="40" height="40"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/>
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
 </p>
 
 <h3 align="center">AI & Automation Tools</h3>
