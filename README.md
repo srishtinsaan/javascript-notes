@@ -1,4 +1,4 @@
-#<h1 align="center"><img src="https://user-images.githubusercontent.com/44104676/173990923-48b66056-0bff-472a-b5bf-faab4146e950.gif" height="40"> Hi! I'm Srishti Singh</h1>
+<h1 align="center"><img src="https://user-images.githubusercontent.com/44104676/173990923-48b66056-0bff-472a-b5bf-faab4146e950.gif" height="40"> Hello World! I'm Srishti Singh</h1>
 
 <p align="center">
     <img src="https://img.shields.io/badge/Focus-DSA-CB9DF0?style=flat" />
@@ -11,7 +11,7 @@
     <a href="">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
-    <a href="https://www.twitch.tv/xl_kaywat_lx">
+    <a href="">
         <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" />
     </a>
     <a href="https://www.fixmyapple.org">
