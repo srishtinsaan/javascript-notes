@@ -41,4 +41,10 @@ console.log(typeof myFunction); //function
 console.log(typeof heros); //object
 
 
+//  Memory in JS
+
+// 1. Stack (Primitive)    2. Heap (Non-p)
+// stack me hamesha copy milti hai heap me original value m change aata h mtlb reference milta h
+
+
 // https://262.ecma-international.org/5.1/#sec-11.4.3
