@@ -39,7 +39,19 @@ console.log(c.substring(-7,4)); //HELL ... treat -ve value as 0
 
 // slice
 console.log(c.slice(0,4)); //hell
-console.log(c.slice(-1,-4));
+console.log(c.slice(-4,3)); //el
+
+//trim
+let d = '    ram       '
+console.log(d.trim()); // remove spaces
+
+
+// replace
+let email = 'https://bittu/rammm singhhhh'
+console.log(email.replace(' ','-')); //^-^
+
+// includes
+console.log(email.includes('ram')); //true ... ye batata h this word is there or not
 
 
 
