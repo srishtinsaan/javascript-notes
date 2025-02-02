@@ -6,14 +6,14 @@ console.log(score) //10
 console.log(typeof score); //string
 
 score = Number(score)
-console.log(typeof score); //number
+console.log(typeof score); //number            String(no.) -----> Number = number
 
 score = '10abc'
 console.log(typeof score); //string
 
 
 score = Number(score) //still becomes a Number WTH !!!!!!
-console.log(score); // NaN '-.-'
+console.log(score); // NaN '-.-'                String(no. + string) ----> Number = NaN
 
 // You cannot directly compare a value to NaN using == or ===. 
 // Instead, you should use the isNaN() function
@@ -27,14 +27,14 @@ score = null
 console.log(typeof score); //object
 
 score = Number(score)
-console.log(score); //0
+console.log(score); //0             Null ---> Number = 0
 
 
 score = undefined
 console.log(typeof score); //undefined
 
 score = Number(score)
-console.log(score); //NaN
+console.log(score); //NaN           Undefined ---> Number = NaN
 
 
 score = true

@@ -1,7 +1,7 @@
 console.log(undefined == null); //true
-console.log(nul==0); //false bcz it not convert null to number
+console.log(null==0); //false bcz it not convert null to number
 console.log(null>0); //false
-console.log(null>=0); //true bcz null => 0 by >= operator
+console.log(null>=0); //true bcz null ---> 0 by >= operator
 
 // same goes with undefined
 
