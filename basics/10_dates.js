@@ -48,6 +48,17 @@ console.log(ts); //1738493364944 ... from 1 jan 1970 till now miliseconds time
 console.log(d3.getTime()); //1736121600000
 console.log(Math.floor(ts/1000));
 
+// -----------
+let d4 = new Date("2025-01-06");
+
+d4.toLocaleString('default',{
+    // ctrl + space
+    weekday : "long",
+    
+})
+console.log(d4.toDateString()); // Mon Jan 06 2025
+
+
 
 
 
