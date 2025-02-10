@@ -12,8 +12,8 @@
 
 // user.welcomeMessage //no op 
 // user.welcomeMessage() // bittu, welcome to website
-// user.username = "bittttu"
-// user.welcomeMessage() // bittttu, welcome to website
+// user.username = "ram"
+// user.welcomeMessage() // ram, welcome to website
 
 // console.log(this); // {}......story about it....
 
@@ -43,6 +43,15 @@ function chai0(){
 
     // Agar kisi variable ko bina var, let, ya const ke declare karte ho, toh wo automatic global variable ban jata hai.
     // Iska matlab hai username1 global scope me chala gaya, but wo this se attach nahi hota. 
+    // why?
+    // Jab bina var, let, ya const ke variable declare kiya jata hai, toh wo:
+
+// Global scope me chala jata hai ✅
+// Lekin window (ya global object) ka part nahi banta ❌
+// this se attach nahi hota
+
+    // global variable?
+    // Global Variable woh hota hai jo pure program me kahin bhi accessible ho.
 
     console.log(this); // global {global: global, clearImmediate: ƒ, setImmediate: ƒ, clearInterval: ƒ, clearTimeout: ƒ, …} ........(in browser: `window`, in Node: `global`)
 
@@ -62,7 +71,7 @@ function chai0(){
     // JavaScript me functions ka this depend karta hai ki function kaise call kiya gaya hai.
     // Normal function calls (chai0()) me this global object ko refer karta hai sirf browser ke andar.
     // Lekin agar ek variable directly assign hota hai bina var, let, ya const ke, toh wo this se attach nahi hota, balki ek separate global variable ban jata hai.
-    // Is wajah se this.username1 undefined deta hai, lekin username1 print karne par "me" aata hai.
+    // Is wajah se this.username1 undefined deta hai
 
 
 
@@ -72,7 +81,7 @@ function chai0(){
     // this.username1 ka matlab hai ki JavaScript global object ke andar username1 ko dhund rahi hai.
     // Lekin username1 global object me exist hi nahi karta.
     // Jab JavaScript ko koi undefined property milti hai, toh wo undefined return karti hai, error nahi deti!
-    // Kyunki username1 kisi bhi scope (global ya local) me define nahi hai, toh JavaScript ko pata hi nahi hota ki yeh kya hai.
+    // Kyunki username1 kisi bhi scope (global ya local) me define nahi hai, toh JavaScript ko pata hi nahi hota ki yeh kya hai.  
     // console.log(abc); // 🚨 ReferenceError: abc is not defined
 }
 chai0() 
@@ -149,6 +158,40 @@ chai3()
 
 // this Function Expression me {} kyu hota hai?
 
+// Reason 1: JavaScript ka Execution Context
+
+// JavaScript me global execution context alag hota hai aur function execution context alag hota hai.
+// Normal function (function chai() {}) global execution context me run hota hai, isliye this global object hota hai.
+// Function expressions aur arrow functions lexical scope follow karte hain, isliye unka this global object nahi hota!
+
+// lexical scope?
+// Lexical Scope ka matlab hai ki ek function apne parent scope ke variables ko access kar sakta hai, chahe usko kahin bhi call kiya jaye. Yeh function define hone ke waqt decide hota hai, run-time par nahi.
+// Lexical Scope = Function jaha define hua hai, wahi uska scope fix hota hai
+// ✔ Inner function apne outer function ke variables ko access kar sakta hai
+// ✔ Scope Chain hoti hai jo andar se bahar variables dhundhti hai
+// ✔ JavaScript lexical scope follow karta hai, dynamic nahi 🚀
+
+
+// Reason 2: module.exports ki wajah se (Node.js me)
+
+// console.log(this); // Node.js me output: {}
+// Node.js me har file ek module hoti hai.
+// Jab aap function expression likhte ho, toh wo ek module ke andar hota hai, aur module ka this {} hota hai, global nahi!
+
+
+// Reason 3: use strict Mode ka Effect
+
+// "use strict";
+// const chai = function() {
+//     console.log(this);
+// }
+// chai();
+// Output:
+// ✅ {} in Node.js
+// ✅ undefined in Browser
+
+// Strict mode me, function expressions ka this undefined ho jata hai, kyunki global object ka access band ho jata hai!
+// Isliye function expressions me this empty object {} deta hai ya undefined ho sakta hai strict mode me.
 
 
 
@@ -211,6 +254,52 @@ const chai6 = () => {
     console.log(this.username5); // undefined 
 }
 chai6()
+
+
+
+const addTwo = (num1, num2) => {
+    return num1 + num2
+}
+console.log(addTwo(3,4)); // 7
+
+
+
+// one more way to use arrow function
+
+// implicit return method
+const addTwo1 = (num1, num2) =>  num1 + num2
+
+console.log(addTwo1(3,4)); // 7
+
+
+
+// one more way...
+const addTwo2 = (num1, num2) =>  (num1 + num2)
+
+console.log(addTwo2(3,4)); // 7
+
+// agar {} use honge toh return likhna hi padega otherwise () me nhi likhna
+
+
+
+// one more thing...
+// const addTwo3 = (num1, num2) =>  (username : "bittu")
+
+// console.log(addTwo3(3,4)); // error bcz function me : is wrong syntax
+
+
+
+// = kiya to...gives only value of obj
+const addTwo3 = (num1, num2) =>  (username = "bittu")
+
+console.log(addTwo3(3,4)); //bittu
+
+
+
+// to output both key value of the object...
+const addTwo4 = (num1, num2) =>  ({username : "bittu"})
+
+console.log(addTwo4(3,4)); // {username: 'bittu'}
 
 
 
