@@ -46,3 +46,11 @@ console.log(instructor); // hitesh bhaiya
 // random user me api
 // JSON formatter 
 // Tree or view format
+
+
+// ------- property VS methods --------
+
+// object k andar jo cheexein hoti h wo property hoti h jese name : "bittu"
+
+// object ki wo property jo function ho use property na bolkar mathod bolte h jese move : function(){ bla bla }
+

@@ -71,6 +71,14 @@ var bittu = 9
 
 // error in case of let , const
 
+// why it happen?
+
+// var bittu = 9; has two things... 1. var bittu;   2. bittu = 9;
+
+// var bittu; moves at top
+
+// so declaration is done.
+
 
 
 

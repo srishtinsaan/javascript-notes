@@ -40,3 +40,21 @@ let score3 = 50;
 console.log(Array.of(score1, score2, score3)); // (3) [30, 40, 50]
 
 
+// ------- push, pop, shift, unshift -----------
+
+// push -- last me ek member add karna
+// pop -- last se ek member delete karna
+// shift -- shuru se ek member delete karna
+// unshift -- shuru me ek member add karna
+
+let bittu = [3,4]
+bittu.push(5)
+console.log(bittu); //  [3, 4, 5]
+
+bittu.shift()
+bittu.unshift(2)
+
+console.log(bittu);
+
+
+

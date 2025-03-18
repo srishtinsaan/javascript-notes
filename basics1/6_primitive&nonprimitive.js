@@ -14,16 +14,31 @@ const bigNumber = 3456543576654356754n // n will make it BigInt
 console.log(bigNumber); //3456543576654356754n
 console.log(typeof bigNumber); //bigint
 
-console.log(5n + 10); // TypeError
+// console.log(5n + 10); // TypeError
 
 console.log(10n / 3n); // 3n
 
 
 
 
-// Reference (Non primitive)
+// Reference (Non primitive) => [] , {} , ()
 
 // Array, Objects, Functions
+
+// aisi koi bhi value jise copy karne par real copy nahi hota , balki uss main value ka reference pass ho jata hai use hum reference value kehte h
+
+// aur jiska copy karne par real copy ho jae wo value primitive type hota h
+
+// example
+
+var a = [9,10];
+var b = a; // 9 aur 10 ab a ke bhi hai aur b ke bhi . b usme change karega to a me bhi change hoga
+b.pop() 
+console.log(b) // 9
+console.log(a); // 9
+
+// 
+
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
