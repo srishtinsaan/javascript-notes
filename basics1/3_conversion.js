@@ -60,6 +60,17 @@ let stringNumber = String(someNumber)
 // console.log(typeof stringNumber);
 
 
+// -------------------------------  Hoisting  ------------------------------------------
+
+// matlab variable declare aur initialize karne k pehle hi print karwana
+
+console.log(bittu); //undefined
+var bittu = 9
+
+// only occur is var
+
+// error in case of let , const
+
 
 
 
