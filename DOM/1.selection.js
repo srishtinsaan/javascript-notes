@@ -41,7 +41,13 @@
 
 
 
+// IMPPP 
 
+// Agar maine bohot sare h3 banae aur querySelector me h3 dala to wo sirf shuru ka ek h3 select karega
+
+// Sare h3 select karwane k liye...
+
+// document.querySelectorAll(`h3`)
 
 
 
