@@ -1,2 +1,1 @@
-var h3 = document.querySelector(`.shyam`)
-let img1 = 
+var b = document.querySelector(`button`)
