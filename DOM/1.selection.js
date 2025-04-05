@@ -51,6 +51,13 @@
 
 
 
+// Note :
+
+//  If the <script> tag is inside <head> or before <body>, JavaScript runs before the button is created.
+
+// document.querySelector("button") Returns null: Since no <button> exists when the script runs, b.textContent = "Starting..." fails.
+
+
 
 
 

@@ -24,7 +24,6 @@ let state;
 
 // NULL IS AN OBJECT
 
-// object
-
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+console.log(typeof Nan); // number

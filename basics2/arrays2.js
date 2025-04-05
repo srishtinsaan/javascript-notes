@@ -2,7 +2,7 @@ let ar = [1,2,3,4,5]
 let arr = [9,8,7]
 
 // ar.push(arr)
-// console.log(ar); // (6) [1, 2, 3, 4, 5, Array(3)]
+// console.log(ar); // (6) [1, 2, 3, 4, 5, [9,8,7]]
 
 // concat
 let a = ar.concat(arr)

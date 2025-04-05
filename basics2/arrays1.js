@@ -1,6 +1,6 @@
 // const ar = {1,2,3,4}  ...error
 const ar = [1,2,3,4]
-// console.log(ar); ... error
+console.log(ar); 
 // console.log(ar[]); ... error
 // console.log(ar[0:3]);... error
 console.log(ar[0]); //1
@@ -59,7 +59,7 @@ console.log(typeof myarr) // string
 // slice and splice ....IMP
 
 const eee = new Array(1,2,3,4,5,6)
-console.log("A",eee)
+console.log("A",eee) // A [1, 2, 3, 4, 5, 6]
 
 const myn = eee.slice(1,3) //............from >=1 to <3
 console.log(myn) // (3) [2, 3]
@@ -69,4 +69,4 @@ const mym = eee.splice(1,3)
 console.log(myn) // (3) [2, 3]
 console.log("C",eee) // C (3) [1, 5, 6] 
 
-// sPlice removes 1,2,3... 3 elem from the original array
+// sPlice removes 2,3... 2 elem from the original array

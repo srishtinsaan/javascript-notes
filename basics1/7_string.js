@@ -2,7 +2,7 @@
 
 
 // concatenation
-const a = 'meow'
+const a = 'meow' // PRIMITIVE TYPE
 const b = 3
 console.log(a+b); //meow3
 
@@ -10,7 +10,9 @@ console.log(a+b); //meow3
 console.log(`the cat says ${a} , ${b} times`);
 
 // one more way to declare a string
-const c =  new String('hello') // it has following adv..
+const c =  new String('hello')  // OBJECT
+
+// it has following adv..
 
 //  when run ^ line on console we get something like this...
 // 0:H
@@ -27,13 +29,18 @@ console.log(c[-1]); //undefined
 console.log(c.__proto__); //2 underscores each side   used to get prototype 
                           // output : String('') mtlb it says ki ye ek obj h
 
-console.log(c.toUpperCase()); // original value change hui kya??....naheueueeuee bcz stack haiiiii
+console.log(c.toUpperCase()); // original value change hui kya??....
+
+// naheueueeuee bcz BOTH TYPES OF STRINGS( OBJ OR PRIMITIVE ARE IMMUTABLE)
+
 
 console.log(c.charAt(0));
 
 console.log(c.indexOf('l')); //2
 
-// slice and substring
+
+
+// ------------------- SLICE AND SUBSTRING :-
 
 // substring
 console.log(c.substring(0,4)); //HELL

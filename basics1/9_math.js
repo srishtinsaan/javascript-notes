@@ -2,6 +2,7 @@
 
 console.log(Math); //Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}
 
+// its a built-in object
 
 // console.log(Math.abs(-5)); //5
 // console.log(Math.round(-5.4532)); //-5...round off

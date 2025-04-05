@@ -1,6 +1,6 @@
 // IMP FOR INTERVIEW
 
-const no = new Number(4)
+const no = new Number(4) // OBJECT
 console.log(no); //Number (4)
 // this no is an object by creating it this way
 // we get to see many functions of numbers on inspect by writing like this
