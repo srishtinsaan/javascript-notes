@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(203, 229, 203);
+}
+.container{
+    padding: 10vw 25vw;
+}
+input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 20px;
+    outline-color: royalblue;
+}
+.people{
+    margin-top: 20px;
+    display: flex;
+    gap: 19px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.person{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.image{
+    width: 7vw;
+    height: 7vw;
+    outline-color: royalblue;
+    border-radius: 50%;
+    overflow: hidden;
+    object-position: center;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+

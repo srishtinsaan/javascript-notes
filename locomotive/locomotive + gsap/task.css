@@ -1,0 +1,43 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* Locomotive me main div ko width height nahi dete */
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(203, 83, 83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* above 3 lines? */
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(98, 172, 98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(109, 109, 171);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
