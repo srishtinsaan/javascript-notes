@@ -1,0 +1,35 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(231, 192, 192); */
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(202, 124, 124); */
+}
+#page2 img{
+    height: 100%;
+    width: 20%;
+    object-fit: cover;
+    position: relative;
+    left: 50%; /* this does moves img to left but img ki width right k 50% me chali jati h*/
+    /* right: 50%; we cant use it as dono side se 50-50 % of parent width agar khiskegi to jaegi kaha which leads to unexpected result */
+    transform: translateX(-50%); /*so we use it, ye right se 50% khiskaega but error nhi karega center karega */
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(191, 62, 62); */
+}
