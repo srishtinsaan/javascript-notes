@@ -47,16 +47,15 @@ console.log(score); //1
 let isLoggedIn = "hitesh"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-//  console.log(booleanIsLoggedIn);
+ console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false ~~~~~~~~~~~~
 // "hitesh" => true
 
 let someNumber = 33
-
 let stringNumber = String(someNumber)
-// console.log(stringNumber);
-// console.log(typeof stringNumber);
+console.log(stringNumber); // 33
+console.log(typeof stringNumber); // string
 
 

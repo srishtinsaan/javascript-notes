@@ -1,10 +1,22 @@
 // Ways to declare an obj :-
 
 // 1. singleton : - apni tarah ka ek object
-//               ye kabhhi bhi literal se nahi banta ye constructor se banaya ja sakta hai
+//               ye kabhhi bhi literal se banta ye constructor se banaya ja sakta hai
 
 
-// const ob = new Object().........ye ek singleton obj hai (IMPPP)
+// const ob = new Object().........ye ek singleton obj nahi hai
+
+// bcz If you write this same code again somewhere else, it will create another object — not reuse the old one.
+
+// pr hum ise singleton obj bana sakte hai
+
+// How??
+
+const v = Singleton.getInstance();
+const b = Singleton.getInstance();
+
+console.log(v === b); // ✅ true — SAME object
+
 
 // 2. object literals
 
@@ -24,7 +36,8 @@ const a = {
     email : "srish@gmail.com",
     "my quote" : "xyz",
     sym : "mysymbol",
-    [mysymbol] : mysymbol
+    [mysymbol] : mysymbol // a Symbol key, unique and hidden from normal access.
+    // It means: "Use the value of mysymbol as the key" — not the string "mysymbol".
 }
 
 
@@ -41,7 +54,7 @@ console.log(a.email); //srish@gmail.com
 
 // WE cant access my quote with . method so... [] method comes in picture
 // console.log(a.my quote) .. error bcz this space notation is not allowed
-console.log(a["my quote"]); //xyz
+console.log(a["my quote"]); //xyz   
 
 // console.log(a[email]); ... error bcz in backend, emsil attributes of obj a are stored as string 
 console.log(a["email"]); //srish@gmail.com

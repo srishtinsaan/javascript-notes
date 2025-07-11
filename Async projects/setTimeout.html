@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur Code</h1>
+    <button id="change">Click to change text after 3 sec</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+    const h1 = document.querySelector('h1')
+    const changebtn = document.querySelector('#change')
+    const stopbtn = document.querySelector('#stop')
+    const changeText = function(){
+        h1.innerHTML = "Chai aur JS"
+    }
+    let change = 0
+    changebtn.addEventListener("click", function(){
+        change = setTimeout(changeText, 3000);
+        console.log("changed!");
+        
+    });
+    stopbtn.addEventListener("click", function(){
+        clearTimeout(change);
+        console.log("cleared !");
+    });
+
+    
+</script>
+</html>

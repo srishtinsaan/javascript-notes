@@ -1,3 +1,10 @@
+const greet = function() {
+  console.log("Hello!");
+};
+console.log(greet()) // Hello! undefined
+console.log(greet) //  ƒ () { console.log("Hello!"); }
+
+
 function name(){
     console.log("bittu");  
 }
@@ -36,15 +43,16 @@ console.log(k); // aja ve aja ve
 
 
 function loginusermessage(username = "sam"){ //default value is sam
-    // if(username === undefined){
-    //     return `enter kr username`
-    // }
-    // OR
-    // if(!username){ ....bcz UNDEFINED is considered FALSE......IMP
-    //     return `enter kr username`
-    // }
+    if(username === undefined){
+        return `enter kr username`
+    }
+                //OR
+    if(!username){ //....bcz UNDEFINED is considered FALSE......IMP
+        return `enter kr username`
+    }
     return `${username} just logged in` 
 }
+
 loginusermessage("bittu") //no output
 console.log(loginusermessage("bittu")); // bittu just logged in
 
